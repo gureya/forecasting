@@ -1,0 +1,20 @@
+Excel sheets containing historical data(data) and validation data(valdata)
+has to have the same format as the given folders :
+
+'2005-07-01 00:00:00.0'	13162
+'2005-07-01 00:00:00.0'	12699
+  .			  .	
+  .			  .
+  .			  .
+sometimes the date is written like this '2005-07-01 00:00:00.0' however
+the first ' is not shown in the table (or when it is imported to matlab)
+so extra ' should be placed like cells number one and seven of first column
+in file data.xlsx the are written ''2005-07-01 00:00:00.0'' and ''2005-07-01 00:00:00.0'
+but showen '2005-07-01 00:00:00.0'' and '2005-07-01 00:00:00.0''
+
+Do not understand? contact me through tareqaziz2010@gmial.com
+
+
+
+
+ 
