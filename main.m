@@ -42,7 +42,7 @@ display(' (3) Maximum');
 display(' (4) Minimum');
 display('**********************************************************');
 model=0;
-while (model<1 || model>5),
+while (model<1 || model>7),
     model = input('Choose the desired model from the menu above:  ');
 end
 
@@ -54,8 +54,10 @@ switch(model)
     case 3 
         run('Maximum');   
     case 4 
-        run('Minimum');         
-    case 5 
+        run('Minimum');
+    case 5
+        run('Fft');
+    case 6 
        % run('Average_model');            
     otherwise 
         display('!Error');
