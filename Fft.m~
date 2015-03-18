@@ -63,9 +63,8 @@ while 1i < csize
         %display(out(:,next));
         %display(out(:,next+j));
         C = cov(out(:,next),out(:,next+j));
-        display(C);
         p = C(2)/std(out(:,next))*std(out(:,next+j));
-        display(p);
+        display(p)
     end
         next = next + 1;
         n = n - 1; 
