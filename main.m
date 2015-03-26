@@ -41,9 +41,12 @@ display(' (2) Average');
 display(' (3) Maximum');
 display(' (4) Minimum');
 display(' (5) Fft');
+display(' (6) Regression Trees Model');
+display(' (7) SVR');
+display(' (8) NN');
 display('**********************************************************');
 model=0;
-while (model<1 || model>7),
+while (model<1 || model>9),
     model = input('Choose the desired model from the menu above:  ');
 end
 
@@ -59,7 +62,11 @@ switch(model)
     case 5
         run('Fft');
     case 6 
-       % run('Average_model');            
+        run('Regression_tree');
+    case 7
+        run('Svr');
+    case 8
+        run('NN_model');
     otherwise 
         display('!Error');
         return;
